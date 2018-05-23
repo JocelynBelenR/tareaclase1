@@ -19,4 +19,16 @@ btn.addEventListener('click', function(){
     txt.innerHTML = "<p> Anna Gunn es la actriz que dio vida al personaje de Skyler White, años más tarde escribiría en The New York Times, luego del final de la serie, un interesantísimo artículo en que habla sobre el odio que le profesan a su personaje... y a ella misma. Explica que se trata de una especie </p>";
     document.getElementById("pic").src = "breaking-bad.jpg";
 })
+
+//  Ingresar correo
+window.onload = function (){
+    function myFunction (){
+       var userdos = document.getElementById("email").value;
+       var p = document.getElementById("Ingreso de email");
+       p.innerHTML = "Email ingresado: " + user;
+    }
+}   
+
+
+
 }
